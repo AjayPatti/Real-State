@@ -1,0 +1,342 @@
+<?php
+	ob_start();
+	session_start();
+
+	require("../includes/host.php");
+	require("../includes/kc_connection.php");
+	require("../includes/common-functions.php");
+	require("../includes/checkAuth.php");
+if(!(userCan($conn,$_SESSION['login_id'],$privilegeName = 'manage_ledger'))){ 
+ 	header("location:/wcc_real_estate/index.php");
+ 	exit();
+ }
+	$limit = 1000;
+	if(isset($_GET['page'])){
+		$page = $_GET['page'];
+	}else{
+		$page = 1;
+	}
+
+	$search = false;
+	// echo "select * from kc_customer_transactions where status = '1' and is_affect_sold_amount != '1' "; die();
+	$query = "select * from kc_farmer_transactions where status = '1' and is_affect_sold_amount != '1' ";	// and remarks is NULL->to remove discount	// and cr_dr = 'dr'
+	if(isset($_GET['search_farmer']) && $_GET['search_farmer']>0 ){ 
+		$farmer_id = (int) $_GET['search_farmer'];
+		
+		if(isset($_GET['search_farmer']) && isset($_GET['search_farmer'])){
+			$query .= " and farmer_id = '".$farmer_id."'";
+		}
+		$total_records = mysqli_num_rows(mysqli_query($conn,$query));
+		$total_pages = ceil($total_records/$limit);
+		
+		if($page == 1){
+			$start = 0;
+		}else{
+			$start = ($page-1)*$limit;
+		}
+
+		$query .= " order by cr_dr, paid_date asc limit $start,$limit";
+
+		$transactions = mysqli_query($conn,$query);
+		$search = true;
+
+		$farmer = farmerDetails($conn,$farmer_id);
+		// echo "<pre>"; print_r(farmerID($farmer['id'])); die;
+		$name = farmerID($farmer['id']).'-'.$farmer['name_title'].' '.$farmer['name'].'('.$farmer['mobile'].')';
+	}	
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WCC | Admin Panel</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.4 -->
+    <link href="/<?php echo $host_name; ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- FontAwesome 4.3.0 -->
+    <link href="/<?php echo $host_name; ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="/<?php echo $host_name; ?>/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/x-icon" href="/<?php echo $host_name; ?>img/logo.png">
+	<!-- Select2 -->
+    <link href="/<?php echo $host_name; ?>/plugins/select2/select2.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- jQuery UI -->
+    <link href="/<?php echo $host_name; ?>/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+	
+    <!-- Theme style -->
+    <link href="/<?php echo $host_name; ?>/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="/<?php echo $host_name; ?>/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <!-- iCheck -->
+    <link href="/<?php echo $host_name; ?>/plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+    <!-- Morris chart -->
+    <link href="/<?php echo $host_name; ?>/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+    <!-- jvectormap -->
+    <link href="/<?php echo $host_name; ?>/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <!-- Date Picker -->
+    <link href="/<?php echo $host_name; ?>/plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
+    <!-- Daterange picker -->
+    <link href="/<?php echo $host_name; ?>/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link href="/<?php echo $host_name; ?>/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+	
+	<!-- Developer Css -->
+    <link href="/<?php echo $host_name; ?>/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="/<?php echo $host_name; ?>/js/html5shiv.min.js"></script>
+        <script src="/<?php echo $host_name; ?>/js/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    	.ui-autocomplete li{
+    		font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    		padding: 5px 8px;
+    		font-weight: bold;
+    	}
+    	.ui-autocomplete li:hover{
+    		background-color: #3c8dbc;
+    		color: white;
+    	}
+    </style>
+    <script>
+    	function printDiv(divName) {
+		     var printContents = document.getElementById(divName).innerHTML;
+		     var originalContents = document.body.innerHTML;
+
+		     document.body.innerHTML = printContents;
+
+		     window.print();
+
+		     document.body.innerHTML = originalContents;
+		}
+    </script>
+  </head>
+  <body class="skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <?php require('../includes/header.php'); ?>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <?php echo require('../includes/left_sidebar.php'); ?>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            Masters
+            <small>Control panel</small>
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Ledger</li>
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+			<div class="box">
+                <div class="box-header">
+					<?php 
+					include("../includes/notification.php"); ?>
+					<div class="col-sm-6">
+						<h3 class="box-title">Farmer Ledger</h3>
+					</div>
+					<?php /*if(isset($_GET['name']) && $_GET['name'] != ''){*/ ?>
+					<?php if($search && isset($name)){ ?>
+	                    <div class="col-sm-4">
+		                    <a href="ledger_excel_export.php?customer=<?php echo isset($_GET['customer'])?$_GET['customer']:''; ?>&search=Search" class="btn btn-sm btn-success pull-right"><i class="fa fa-file-excel-o"></i> Excel Export</a> 
+						</div>
+						<div class="col-md-2 text-right">
+							<a class="btn btn-sm btn-danger" href="javascript:void(0);" onclick="printDiv('printContent')" data-toggle="tooltip" title="Print"><i class="fa fa-print">&nbsp;</i>PDF Export</a>
+						</div>
+					<?php } ?>
+					<hr />
+					<form action="" name="search_frm" id="search_frm" method="get" class="">
+						<div class="form-group col-sm-3 ui-widget">
+							<label for="search_farmer">Farmer <a href="javascript:void(0);" class="text-primary" data-toggle="popover" title="Customer Search Hint" data-content="'c-' for Code Search<br>'n-' for Name Search<br>'m-' for Mobile Search<br><b>Eg:</b> If want to search 00942 in only code then Search for 'c-00942' "><i class="fa fa-info-circle"></i></a></label>
+						  	<?php /*<input type="text" class="form-control" id="customer" name="customer" value="<?php echo (isset($_GET['name']) && $_GET['name'] != '')?$_GET['name']:''; ?>" />*/ ?>
+						  	<input type="text" class="form-control farmer-autocomplete" placeholder="Name or Code or Mobile" data-for-id="search_farmer">
+							<input type="hidden" name="search_farmer" id="search_farmer">
+						</div>
+						<button type="submit" name="search" value="Search" class="btn btn-primary" style="margin-top: 24px;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+					</form>
+				</div><!-- /.box-header -->
+				
+                <div class="box-body no-padding" id="printContent">
+				<?php /*if(isset($_GET['name']) && $_GET['name'] != ''){ ?>
+					<h4 class="text-center"><?php echo customerName($conn,(isset($_GET['customer']) && $_GET['customer'] != '')?$_GET['customer']:''); ?></h4>
+				<?php }*/
+				if($search && isset($name)){ ?>
+					<h4 class="text-center"><?php echo $name; ?></h4>
+				<?php } ?>
+
+
+
+				 <table class="table table-striped table-hover table-bordered">
+                    <tr>
+						<th width="2%">Sr.</th>
+						<!-- <th width="8%">Block</th>
+						<th>Plot No.</th>
+						<th>Area</th> -->
+						<?php /* ?><th>Client Name</th>
+						<th>Associate</th><?php */ ?>
+						<th>Date</th>
+						<th>Details</th>
+						<th>Credit</th>
+						<th>Debit</th>
+					</tr>
+					<?php
+						
+						if($search && mysqli_num_rows($transactions) > 0){
+							$counter = 1;
+							$totalCredit = $totalDebit = 0;
+							while($transaction = mysqli_fetch_assoc($transactions)){
+								
+								
+								if($transaction['cr_dr'] == 'cr' && $transaction['remarks'] == NULL){	//if($counter == 1){//commented on 17/11/2020 due to displaying wrong bounce charges.	//$counter == 1 && removed on 01/01/2021
+							        $transaction['amount'] = saleAmountFarmer($conn,$transaction['farmer_id']);
+							    }
+								//$totalAmountReceived += $transaction['amount'];
+
+								//$pending_amount = ($total_credited - $total_debited);
+								//$totalPendingAmount += $pending_amount;
+								?>
+								<tr>
+									<td><?php echo $counter; ?>.</td>
+									<!-- <td><?php echo blockName($conn,$transaction['block_id']); ?></td>
+									<td><?php echo blockNumberName($conn,$transaction['block_number_id']); ?></td>
+									<td><?php echo $block_details['area']; ?> Sq. Ft.</td> -->
+									<td><?php echo date("d M Y",strtotime($transaction['paid_date'])); ?></td>
+
+									<td>
+										<?php echo $transaction['payment_type']; ?>
+										<?php if($transaction['payment_type'] == "Cheque" || $transaction['payment_type'] == "DD" || $transaction['payment_type'] == "NEFT" || $transaction['payment_type'] == "RTGS"){
+					                        echo "<br>Bank Name: <strong>".$transaction['bank_name']."</strong>";
+					                        echo "<br>".$transaction['payment_type']." Number: <strong>".$transaction['cheque_dd_number']."</strong>";
+					                    }
+					                    if(trim($transaction['remarks']) != ''){ echo '<br />'.$transaction['remarks']; }
+					                    if(trim($transaction['add_transaction_remarks']) != ''){ echo '<br />'.$transaction['add_transaction_remarks']; }
+					                    ?>	
+									</td>
+									<?php /* ?><td><?php echo customerName($conn,$transaction['customer_id']); ?></td>
+									<td><?php echo ($block['associate'] > 0)?associateName($conn,$block['associate']):''; ?></td><?php */ ?>
+									<td>
+										<?php if($transaction['cr_dr'] == "cr"){
+											$totalCredit += $transaction['amount'];
+											?>
+											<?php echo number_format($transaction['amount'],2); ?> ₹
+										<?php } ?>
+									</td>
+									<td>
+										<?php if($transaction['cr_dr'] == "dr"){
+											$totalDebit += $transaction['amount'];
+											?>
+											<?php echo number_format($transaction['amount'],2); ?> ₹
+										<?php } ?>
+									</td>
+								</tr>
+								<?php	
+								$counter++;
+							} ?>
+							<tr>
+								<td colspan="3" align="right"><font size="3">Total: &nbsp;&nbsp;</font></td>
+								<td class="text-success"><font size="3"><?php echo number_format($totalCredit,2); ?> ₹</font></td>
+								<td class="text-success"><font size="3"><?php echo number_format($totalDebit,2); ?> ₹</font></td>
+								<?php /*<td colspan="6">&nbsp;</td>
+								<td colspan="6" class="text-danger"><font size="3"><?php echo number_format($totalPendingAmount,2); ?> ₹</font></td>*/ ?>
+							</tr>
+							<tr>
+								<td colspan="3" align="right"><font size="3">Pending: &nbsp;&nbsp;</font></td>
+								<td class="text-danger" colspan="2"><font size="3"><?php echo number_format($totalCredit - $totalDebit,2); ?> ₹</font></td>
+								<?php /*<td colspan="6">&nbsp;</td>
+								<td colspan="6" class="text-danger"><font size="3"><?php echo number_format($totalPendingAmount,2); ?> ₹</font></td>*/ ?>
+							</tr>
+							<?php
+						}else{
+							?>
+							<style> th { display : none } </style>
+
+							<tr>
+								<td colspan="8" align="center"><h4 class="text-red">No Records Found</h4></td>
+							</tr>
+							<?php
+						}
+						?>
+                  </table>
+                </div><!-- /.box-body -->
+				
+				<?php if(isset($total_pages) && $total_pages > 1){ ?>
+					<div class="box-footer clearfix">
+					  <ul class="pagination pagination-sm no-margin pull-right">
+					   
+						<?php
+							for($i = 1; $i <= $total_pages; $i++){
+								?>
+								 <li <?php if((isset($_GET['page']) && $i == $_GET['page']) || (!isset($_GET['page']) && $i == 1)){ ?>class="active"<?php } ?>><a href="ledger.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+								<?php
+							}
+						?>
+						
+					  </ul>
+					</div>
+				<?php } ?>
+				
+              </div><!-- /.box -->
+        </section> 
+          
+      </div><!-- /.content-wrapper -->    
+      <?php require('../includes/footer.php'); ?>
+
+      <?php require('../includes/control-sidebar.php'); ?>
+      <!-- Add the sidebar's background. This div must be placed
+           immediately after the control sidebar -->
+      <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+
+    <?php require('../includes/common-js.php'); ?>
+	
+    <script type="text/javascript">
+		$( function() {
+			<?php /*
+		    $( "#customer" ).autocomplete({
+				source: function( request, response ) {
+					        $.ajax( {
+					    e      url: "../dynamic/getCustomers.php",
+					          type:"post",
+					          dataType: "json",
+					          data: {
+					            term: request.term
+					          },
+					          success: function( data ) {
+					            // alert(data);
+					            response( data );
+					          }
+					        } );
+					      },
+				minLength: 1,
+				select: function( event, ui ) {
+					//log( "Selected: " + ui.item.value + " aka " + ui.item.id );
+					window.location.href = 'ledger.php?customer='+ui.item.id+'&name='+ui.item.label;
+				}
+	    	}).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+	    		
+	    		
+               return $( "<li>" )
+               .append( "<a>" + item.label + "<br>" + item.plot_detail.join('<br>') + "</a>" )
+               .appendTo( ul );
+            };
+            */ ?>
+	  	});
+	</script>
+    
+  </body>
+</html>

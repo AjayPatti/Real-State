@@ -1,0 +1,206 @@
+// These are CSS variables, so I can tinker with them in JavaScript.
+:root {
+    --line-color: #666;
+    --line-width: 0.1em;
+    --gutter: 0.5em;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  .tree {
+    margin: 0 0 calc(var(--gutter) * 2);
+    text-align: center;
+    &,
+    & ul,
+    & li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+    &,
+    & ul {
+      display: table;
+    }
+    & ul {
+      width: 100%;
+    }
+    & li {
+      display: table-cell;
+      padding: var(--gutter) 0;
+      vertical-align: top;
+    }
+    /* _________ */
+    & li:before {
+      content: "";
+      left: 0;
+      outline: solid calc(var(--line-width) / 2) var(--line-color);
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    & li:first-child:before {
+      left: 50%;
+    }
+    & li:last-child:before {
+      right: 50%;
+    }
+    & button {
+      border-radius: 0.2em;
+      margin: 0 calc(var(--gutter) / 2) var(--gutter);
+      // The user might delete all of the text, causing the button to shrink
+      min-height: 2.1em;
+      position: relative;
+      z-index: 1;
+    }
+    & [contenteditable] {
+      cursor: text;
+    }
+    & .selected {
+      border-color: #900;
+      border-style: dashed;
+      -webkit-box-shadow: 0 0 var(--gutter) var(--line-width) rgba(153, 0, 0, 0.3);
+      -moz-box-shadow: 0 0 var(--gutter) var(--line-width) rgba(153, 0, 0, 0.3);
+      box-shadow: 0 0 var(--gutter) var(--line-width) rgba(153, 0, 0, 0.3);
+    }
+    /* | */
+    & ul:before,
+    & button:before {
+      outline: solid calc(var(--line-width) / 2) var(--line-color);
+      content: "";
+      height: var(--gutter);
+      left: 50%;
+      position: absolute;
+      // This fixes the hack in the previous version
+      top: calc(calc(-1 * var(--gutter)) - calc(var(--line-width) / 2));
+    }
+    /* The root node doesn't connect upwards */
+    & > li {
+      margin-top: 0;
+    }
+    & > li:before,
+    & > li:after,
+    & > li > button:before {
+      outline: none;
+    }
+  }
+  
+  // The names in the tree
+  button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: solid var(--line-width) var(--line-color);
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1.2em;
+    padding: 0.4em 1em;
+    position: relative;
+    &:focus,
+    &:hover {
+      outline: 0.1em dotted var(--line-color);
+      outline-offset: -0.5em;
+    }
+  }
+  input[type="range"] {
+    display: block;
+    width: 100%;
+  }
+  input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 2em;
+    padding: 0;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .toolbar {
+    background: #ccc;
+    font-size: 0.9em;
+    left: 0;
+    margin: 0;
+    padding: var(--gutter);
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transform: translate(0, -100%);
+    transition: all 0.2s ease;
+    z-index: 2;
+  }
+  .toolbar.show {
+    transform: translate(0, 0);
+  }
+  
+  // Tooltip
+  ins {
+    background: #fff;
+    border: solid calc(var(--line-width) / 2) var(--line-color);
+    display: inline-block;
+    font-size: 0.8em;
+    left: -1em;
+    margin: 1em 0 0;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    right: -1em;
+    text-decoration: none;
+    top: 100%;
+  
+    // Speech tick
+    &:before,
+    &:after {
+      border: solid 1em transparent;
+      border-top: none;
+      content: "";
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, 0);
+    }
+    &:before {
+      border-bottom-color: var(--line-color);
+      bottom: 100%;
+    }
+    &:after {
+      bottom: calc(100% - var(--line-width));
+      border-bottom-color: #fff;
+    }
+  }
+  // Hide
+  ins {
+    opacity: 0;
+    transition: all 0.2s ease;
+    transform: scale(0, 0);
+  }
+  // Show
+  .js-confirm .confirm,
+  .js-root .root {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+  
+  // Tiny grid
+  .grid {
+    display: flex;
+    width: 100%;
+    & > * {
+      flex: 1;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+  

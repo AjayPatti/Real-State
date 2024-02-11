@@ -1,0 +1,294 @@
+[10-Feb-2023 16:42:03 Asia/Kolkata] PHP Notice:  Undefined variable: khasra_no in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 189
+[10-Feb-2023 16:42:03 Asia/Kolkata] PHP Notice:  Undefined variable: block_number_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 221
+[10-Feb-2023 16:42:03 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 221
+[10-Feb-2023 16:42:03 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 221
+[10-Feb-2023 16:49:36 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[10-Feb-2023 17:03:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[10-Feb-2023 17:39:16 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[10-Feb-2023 17:40:38 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[10-Feb-2023 17:46:21 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[10-Feb-2023 17:50:29 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[10-Feb-2023 17:53:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[10-Feb-2023 18:03:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[10-Feb-2023 18:18:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[11-Feb-2023 11:33:36 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[11-Feb-2023 14:19:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[11-Feb-2023 16:58:49 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[11-Feb-2023 17:49:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 12:08:42 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 12:23:09 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[12-Feb-2023 12:52:42 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 13:15:56 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 13:44:07 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[12-Feb-2023 13:48:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 13:48:05 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 14:55:48 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[12-Feb-2023 15:20:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 15:58:23 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 17:21:24 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[12-Feb-2023 18:01:30 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 12:52:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 15:00:42 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 16:25:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 16:34:06 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 17:17:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 17:34:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 17:44:10 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[13-Feb-2023 17:50:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 13:03:36 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 13:22:12 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 14:44:37 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 15:41:52 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 15:52:38 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[14-Feb-2023 16:15:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 16:48:07 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 17:05:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 17:23:36 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 17:58:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[14-Feb-2023 18:11:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 11:59:54 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 11:59:55 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 12:40:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 12:52:50 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 13:28:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 13:30:18 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 13:48:56 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[15-Feb-2023 16:01:45 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[15-Feb-2023 16:04:09 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[16-Feb-2023 10:43:06 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[17-Feb-2023 11:11:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 11:14:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 11:30:46 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[17-Feb-2023 11:36:56 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[17-Feb-2023 11:43:59 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[17-Feb-2023 11:45:26 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[17-Feb-2023 13:22:09 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[17-Feb-2023 14:07:53 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[17-Feb-2023 14:18:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 14:41:24 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 15:15:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 16:23:29 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 16:36:36 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 16:48:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 17:09:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 17:09:40 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 17:25:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 17:48:24 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[17-Feb-2023 17:48:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 13:03:46 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 14:22:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 15:29:31 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:10:08 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:25:37 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:35:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:38:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:48:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:57:20 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 16:58:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 17:12:31 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 17:31:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 17:47:53 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[18-Feb-2023 17:55:54 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[19-Feb-2023 13:18:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[19-Feb-2023 13:40:21 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[19-Feb-2023 13:52:24 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[19-Feb-2023 15:10:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[19-Feb-2023 15:40:28 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[19-Feb-2023 16:07:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[19-Feb-2023 17:08:33 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[19-Feb-2023 17:48:51 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 12:07:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 12:07:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 12:07:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 13:35:28 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 15:47:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 16:27:32 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 16:47:23 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 16:51:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 17:11:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 17:19:58 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 17:25:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 17:46:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[20-Feb-2023 17:53:27 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 13:02:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 14:13:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 14:37:29 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 15:03:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 16:05:49 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 16:20:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 16:43:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 16:49:28 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 16:57:04 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 17:04:52 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 17:22:16 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 17:22:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 17:33:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[21-Feb-2023 19:09:52 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[22-Feb-2023 12:14:28 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 12:52:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[22-Feb-2023 13:42:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 14:28:19 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[22-Feb-2023 14:28:27 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[22-Feb-2023 15:06:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 15:35:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 16:24:57 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 17:08:40 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 17:28:32 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 17:29:16 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[22-Feb-2023 17:51:56 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 11:02:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[23-Feb-2023 12:35:30 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 14:27:29 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 15:09:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 15:53:20 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 15:53:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 15:53:26 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 16:24:29 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 16:37:52 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 17:04:33 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 17:16:01 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 17:27:16 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 17:36:46 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 17:46:16 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[23-Feb-2023 17:47:38 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[23-Feb-2023 17:54:18 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 10:43:04 Asia/Kolkata] PHP Notice:  Undefined index: success in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 128
+[24-Feb-2023 12:43:01 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 14:35:51 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 15:18:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 15:38:53 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 15:43:07 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[24-Feb-2023 15:55:55 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[24-Feb-2023 16:07:26 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[24-Feb-2023 16:09:47 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 16:10:03 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[24-Feb-2023 16:43:35 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 17:00:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 17:00:26 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 17:33:42 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 17:43:48 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[24-Feb-2023 18:02:48 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[24-Feb-2023 18:20:23 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[25-Feb-2023 15:59:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 15:59:53 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:01:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:01:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:04:09 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:15:21 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:16:18 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:16:52 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[25-Feb-2023 16:22:20 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[25-Feb-2023 18:52:40 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[25-Feb-2023 18:53:00 Asia/Kolkata] PHP Notice:  Undefined index: face in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 42
+[26-Feb-2023 11:56:34 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[26-Feb-2023 12:56:45 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 14:04:33 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 14:20:35 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[26-Feb-2023 14:21:07 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[26-Feb-2023 14:24:43 Asia/Kolkata] PHP Notice:  Undefined index: face_edit in /home/s86yg0byw2cz/public_html/manager/management/block_numbers.php on line 95
+[26-Feb-2023 15:18:46 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 15:48:22 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 15:48:24 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 17:05:57 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 17:06:18 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 17:45:37 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[26-Feb-2023 17:52:27 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 12:14:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 12:49:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 13:13:29 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 13:56:41 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 14:19:30 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 14:58:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 15:58:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 17:12:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[27-Feb-2023 17:54:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 11:29:33 Asia/Kolkata] PHP Notice:  Undefined variable: cancel_remarks in /home/s86yg0byw2cz/public_html/manager/management/cheque_report.php on line 212
+[28-Feb-2023 12:10:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 12:52:05 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 14:01:08 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:02:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:03:06 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:03:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:04:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:05:01 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:05:44 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:06:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:10:47 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:11:20 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:12:07 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:12:46 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 14:13:37 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 14:48:26 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 15:08:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 215
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined index: block_number_id in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 216
+[28-Feb-2023 15:09:12 Asia/Kolkata] PHP Notice:  Undefined variable: block_details in /home/s86yg0byw2cz/public_html/manager/management/purchase_ledger.php on line 217
+[28-Feb-2023 15:15:41 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 15:17:09 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 15:20:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 15:22:00 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 567
+[28-Feb-2023 15:25:46 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 15:29:31 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 15:31:50 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 15:36:59 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 16:03:43 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 16:08:35 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 16:10:11 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 16:14:51 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 16:17:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 16:32:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 17:06:31 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/purchase_info.php on line 991
+[28-Feb-2023 17:18:14 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 17:27:23 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 17:46:34 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 17:57:36 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141
+[28-Feb-2023 18:02:35 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/s86yg0byw2cz/public_html/manager/management/todayreport.php on line 141

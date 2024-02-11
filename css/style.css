@@ -1,0 +1,21 @@
+.lu-success{
+	color: #00a65a;
+	font-size: 17px;
+	font-weight:bold;
+}
+.lu-error{
+	color: #c7254e;
+	font-size: 17px;
+	font-weight:bold;
+}
+.modal-dialog{
+	margin-left: 225px;
+	width: 83%;
+}
+.ui-autocomplete.ui-menu > li.ui-menu-item{
+	border-bottom: 1px solid black;
+}
+.ui-autocomplete.ui-menu > li.ui-menu-item:nth-child(4n+1):nth-last-child(-n+4),
+  .ui-autocomplete.ui-menu > li.ui-menu-item:nth-child(4n+1):nth-last-child(-n+4) ~ .ui-autocomplete.ui-menu > li.ui-menu-item {
+    border:none;
+}

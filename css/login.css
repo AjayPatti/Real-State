@@ -1,0 +1,15 @@
+.login-box, .register-box {
+    width: 400px !important;
+    margin: 7% auto;
+    background-color: #ffffffc7 !important;
+    padding: 20px !important;
+}
+.login-box-body, .register-box-body {
+    background: #fff0;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+.login-bg{
+ background:url(../img/quick_admin_img.jpg);background-size: contain;"
+}
